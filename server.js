@@ -1,8 +1,10 @@
 const express = require("express");
 const exphbs = require("express-handlebars");
+const connection =require("./config/connection");
 
 
-const PORT = process.env.PORT || 8080;
+
+const PORT = process.env.PORT || 8081;
 
 const app = express();
 
@@ -16,8 +18,8 @@ app.use(express.json());
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-app.use(routes);
-
+/* app.use(routes);
+ */
 app.listen(PORT, function() {
   console.log(`Server listening on: http://localhost:${PORT}`);
 });
