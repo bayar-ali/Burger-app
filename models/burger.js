@@ -1,5 +1,5 @@
 
-const orm = require("../config/orm"); 
+ const orm = require("../config/orm.js");  
 
 
 const cat = {
