@@ -4,7 +4,7 @@
 <h2>Cats that are not sleepy!</h2>
 
 <ul>
-  {{#each cats}}
+  {{#each burgers}}
     {{#unless sleepy}}
       {{> burger/burger-block sleep=true}}
     {{/unless}}
@@ -14,7 +14,7 @@
 <h2>Cats that are sleepy!</h2>
 
 <ul>
-  {{#each cats}}
+  {{#each burgers}}
     {{#if sleepy}}
       {{> burger/burger-block sleep=false}}
     {{/if}}

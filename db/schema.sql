@@ -1,9 +1,7 @@
+CREATE DATABASE burgers_db;
+USE burgers_db; 
 
-
-CREATE DATABASE cats_db;
-USE cats_db;
-
-CREATE TABLE cat
+CREATE TABLE burger
 (
 	id INTEGER AUTO_INCREMENT NOT NULL,
 	name VARCHAR(255) NOT NULL,
