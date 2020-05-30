@@ -1,11 +1,12 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
 
-CREATE TABLE burger(
-id INTEGER AUTO_INCREMENT NOT NULL,
-burger_name VARCHAR(40) NOT NULL,
-devoured BOOLEAN NOT NULL,
 
-PRIMARY KEY (id)
+CREATE DATABASE cats_db;
+USE cats_db;
 
+CREATE TABLE cat
+(
+	id INTEGER AUTO_INCREMENT NOT NULL,
+	name VARCHAR(255) NOT NULL,
+	sleepy BOOLEAN DEFAULT false,
+	PRIMARY KEY (id)
 );

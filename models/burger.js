@@ -1,31 +1,33 @@
 
 const orm = require("../config/orm"); 
 
-const burger = {
-    all: async () => {
-        const result = await orm.all("burger");
-    
-        return result;
-      },
 
-      create: async (cols, vals) => {
-        const result = await orm.create("burger", cols, vals);
-    
-        return result;
-      },
+const cat = {
+  all: async () => {
+    const result = await orm.all("cat");
 
-      create: async (cols, vals) => {
-        const result = await orm.create("burger", cols, vals);
-    
-        return result;
-      },
-      delete: async (condition) => {
-        const result = await orm.delete("burger", condition);
-    
-        return result;
-      }
+    return result;
+  },
 
+  // The variables cols and vals are arrays.
+  create: async (cols, vals) => {
+    const result = await orm.create("cat", cols, vals);
 
-}
+    return result;
+  },
 
-module.exports = burger; 
+  create: async (cols, vals) => {
+    const result = await orm.create("cat", cols, vals);
+
+    return result;
+  },
+
+  delete: async (condition) => {
+    const result = await orm.delete("cat", condition);
+
+    return result;
+  }
+};
+
+// Export the database functions for the controller (catsController.js).
+module.exports = cat;

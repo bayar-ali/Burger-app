@@ -1,7 +1,8 @@
-SELECT * FROM burgers_db.burger;
+USE cats_db;
 
-use burgers_db; 
-
-INSERT INTO burger(burger_name, devoured)
-VALUES ("cheesburger", false),("The Burger Joint", false),("Bob's Burger Barn", false), ("The Burger Barn", true),
-("Spicy Burger", true), ("Double BUrger Joint", true); 
+INSERT INTO cat (name) VALUES ('Meeses');
+INSERT INTO cat (name) VALUES ('Bobbi');
+INSERT INTO cat (name, sleepy) VALUES ('Sam', true);
+INSERT INTO cat (name, sleepy) VALUES ('Missy', true);
+INSERT INTO cat (name, sleepy) VALUES ('Coco', true);
+INSERT INTO cat (name) VALUES ('Owens');
