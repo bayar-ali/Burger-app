@@ -1,6 +1,7 @@
-SELECT * FROM burgers_db.burgers;
+SELECT * FROM burgers_db.burger;
+
 use burgers_db; 
 
-INSERT INTO burgers(burger_name, devoured)
+INSERT INTO burger(burger_name, devoured)
 VALUES ("cheesburger", false),("The Burger Joint", false),("Bob's Burger Barn", false), ("The Burger Barn", true),
 ("Spicy Burger", true), ("Double BUrger Joint", true); 
