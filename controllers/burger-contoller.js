@@ -3,7 +3,7 @@ const router = express.Router();
 const burger = require("../models/burger.js");
 
 
-// Create all our routes and set up logic within those routes where required.
+
 router.get("/", async (req, res) => {
   const data = await burger.all();
 
@@ -42,5 +42,4 @@ router.delete("/api/burgers/:id", async (req, res) => {
   res.status(200).end();
 });
 
-// Export routes for server.js to use.
 module.exports = router;

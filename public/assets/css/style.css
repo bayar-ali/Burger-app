@@ -19,6 +19,9 @@ li {
     margin-bottom: 5px;
   }
 
+  body {
+    background-color: rgb(25, 73, 95);
+  }
  
 
   .devoured {
@@ -37,4 +40,9 @@ li {
 
   .form-group2 {
     text-align: center;
+  }
+
+  .img1 {
+    height: 30px;
+    width: 30px;
   }

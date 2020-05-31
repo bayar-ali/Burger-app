@@ -1,9 +1,10 @@
-
+<br>
 <h1 class="devoured"> <strong> Eat DA-Burger App </strong></h1>
 <br>
 
 <h2 class="devoured">Burgers that are not Devoured</h2>
 <br>
+
 <ul class="devoured1">
   {{#each burgers}}
     {{#unless sleepy}}
@@ -22,6 +23,8 @@
   {{/each}}
 </ul>
 <br>
+
+{{!-- add a burger  --}}
 <h2 class="form-group2">Add a Burger</h2>
 <br>
 <form class="create-form">
@@ -37,6 +40,6 @@
     <input type="radio" name="sleepy" value="0"> NOT Devoured
   
   <br>
-    <button class="form-group2" type="submit">Add Burger</button>
+   <button type="sumbit" class="btn btn-primary ">Add Burger</button>
   </div>
 </form>
