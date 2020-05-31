@@ -18,3 +18,23 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+
+ 
+
+  .devoured {
+    text-align: center;
+  }
+  .devoured1 {
+    color: red;
+  }
+  .devoured1 {
+    color:green;
+  }
+
+  .form-group {
+    text-align: center;
+  }
+
+  .form-group2 {
+    text-align: center;
+  }
