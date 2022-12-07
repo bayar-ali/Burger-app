@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/bayar-ali/burger-app#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "express-handlebars": "^4.0.4",
     "handlebars-helper-css": "^0.1.0",
     "mysql": "^2.18.1",
